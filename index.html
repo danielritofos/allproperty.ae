@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Allproperty - Home page</title>
+
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="first pb-5">
+		<!-- <video width="100%" height="auto" preload="auto" autoplay="autoplay" loop="loop" muted="" playsinline="" class="first-video" poster="img/first.jpg">
+	        <source src="img/640x1136.mp4" type="video/mp4"></source>
+	        <source src="img/640x1136.m4v" type="video/mp4"></source>
+	    </video>
+	    <video width="100%" height="auto" preload="auto" autoplay="autoplay" loop="loop" muted="" playsinline="" class="second-video" poster="img/first.jpg">
+	        <source src="img/1280x720.mp4" type="video/mp4"></source>
+	        <source src="img/1280x720.m4v" type="video/mp4"></source>
+	    </video> -->
+	    <nav class="navbar navbar-expand-lg navbar-dark px-5">
+	    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    		<span class="navbar-toggler-icon"></span>
+	    	</button>
+
+	    	<div class="collapse navbar-collapse">
+	    		<ul class="navbar-nav text-white">
+	    			<li class="nav-item active text-white">
+	    				<a class="nav-link" href="#">Rent</a>
+	    			</li>
+	    			<li class="nav-item">
+	    				<a class="nav-link" href="#">Buy</a>
+	    			</li>
+	    			<li class="nav-item">
+	    				<a class="nav-link" href="#">Developers</a>
+	    			</li>
+	    			<li class="nav-item">
+	    				<a class="nav-link" href="#">Agencies/agents</a>
+	    			</li>
+	    			<li class="nav-item">
+	    				<a class="nav-link" href="#">Blog</a>
+	    			</li>
+	    			<li class="nav-item">
+	    				<a class="nav-link" href="#">3D tours</a>
+	    			</li>
+	    			<li class="nav-item">
+	    				<a class="nav-link" href="#">Sell</a>
+	    			</li>
+	    		</ul>
+	    	</div>
+			<a class="navbar-brand" href="#"><img src="img/logo.png" alt="Allproperty"></a>
+			<ul class="navbar-nav">
+    			<li class="nav-item mx-4">
+    				<a class="nav-link text-white" href="#">+1 (836) 230-40-09</a>
+    			</li>
+    			<li class="nav-item">
+    				<a class="nav-link text-white custom-btn rounded px-3" href="#"><img src="img/login.png" alt=""> Log In</a>
+    			</li>
+    		</ul>
+	    </nav>
+	    <div class="container">
+	    	<div class="row">
+	    		<div class="col-12 col-lg-7 brightness pt-5 pb-0 pb-lg-5">
+	    			<p class="description">It's great to be home</p>
+				    <h1>Find Your <br>Perfect Home <br>in Dubai</h1>
+	    		</div>
+	    		<div class="col-12 col-lg-5 brightness pt-5 d-flex flex-column-reverse flex-sm-row align-items-start align-items-lg-end">
+	    			<img src="img/phone.png" alt="Allproperty App" class="col-12 col-sm-5">
+	    			<ul class="text-white col-12 col-sm-7">
+	    				<li class="py-2">Best terms <br>for agencies and agents</li>
+	    				<li class="py-2">Interactive 3D tour <br>and 3D map</li>
+	    				<li class="py-2">Own useful <br>and powerful app</li>
+	    			</ul>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="container property-filter py-5" style="border-radius: 20px;">
+	    	<form action="#">
+	    		<div class="container d-flex align-items-center justify-content-between">
+	    			<div class="input-group mx-1">
+		    			<div class="input-group-prepend">
+		    				<span class="input-group-text bg-transparent border-end-0"><img src="img/search.svg" alt="Search"></span>
+		    			</div>
+		    			<input type="text" class="form-control bg-transparent border-start-0" placeholder="Community or building..." aria-label="Username" aria-describedby="basic-addon1">
+		    		</div>
+		    		<select class="form-select bg-transparent mx-1 w-25" id="inputGroupSelect01">
+		    			<option selected>Property type...</option>
+		    			<option value="1">Apartment</option>
+		    			<option value="2">Villa</option>
+		    			<option value="3">Townhouse</option>
+		    			<option value="4">Penthouse</option>
+		    			<option value="5">Compound</option>
+		    			<option value="6">Duplex</option>
+		    			<option value="7">Full Floor</option>
+		    			<option value="8">Whole Building</option>
+		    			<option value="9">Bulk Rent Unit</option>
+		    			<option value="10">Bungalow</option>
+		    			<option value="11">Hotel & Hotel Apartment</option>
+		    		</select>
+					<input class="btn form-select text-start border mx-1 w-50" type="button" data-bs-toggle="collapse" data-bs-target="#collapsebeds" aria-expanded="false" aria-controls="collapsebeds" value="Beds & Baths">
+					<input class="btn form-select text-start border mx-1 w-25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseprice" aria-expanded="false" aria-controls="collapseprice" value="Price">
+					<button type="submit" class="btn d-flex custom-btn align-items-center text-white px-3"><img src="img/search-light.svg" alt="" style="margin-right: 8px"> Search</button>
+	    		</div>
+	    		<div class="container opacity-50 d-flex mt-2 justify-content-between">
+	    			<div class="d-flex">
+	    				<div class="form-check">
+							<input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+							<label class="form-check-label" for="flexCheckDefault">Rent</label>
+						</div>
+						<div class="form-check mx-3">
+							<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" >
+							<label class="form-check-label" for="flexCheckChecked">Buy</label>
+						</div>
+	    			</div>
+					<button class="btn text-end p-0 m-0 opacity-50" type="button" data-bs-toggle="collapse" data-bs-target="#collapsmore" aria-expanded="false" aria-controls="collapsmore">Show more search options <img src="img/arrowmore.svg" alt=""></button>
+	    		</div>
+				<div class="collapse container" id="collapsebeds">
+					<div class="bg-transparent border-0 row">
+						<div class="d-flex flex-column col-12 col-lg-6">
+							<strong class="mt-3 ml-1">Bedrooms</strong>
+							<div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+								<input type="checkbox" class="btn-check" id="bedrooms-btncheck1" autocomplete="off">
+								<label class="btn btn-outline-secondary m-1" for="bedrooms-btncheck1">Studio</label>
+
+								<input type="checkbox" class="btn-check" id="bedrooms-btncheck2" autocomplete="off">
+								<label class="btn btn-outline-secondary m-1" for="bedrooms-btncheck2">1</label>
+
+								<input type="checkbox" class="btn-check" id="bedrooms-btncheck3" autocomplete="off">
+								<label class="btn btn-outline-secondary m-1" for="bedrooms-btncheck3">2</label>
+
+								<input type="checkbox" class="btn-check" id="bedrooms-btncheck4" autocomplete="off">
+								<label class="btn btn-outline-secondary m-1" for="bedrooms-btncheck4">3</label>
+
+								<input type="checkbox" class="btn-check" id="bedrooms-btncheck5" autocomplete="off">
+								<label class="btn btn-outline-secondary m-1" for="bedrooms-btncheck5">4</label>
+
+								<input type="checkbox" class="btn-check" id="bedrooms-btncheck6" autocomplete="off">
+								<label class="btn btn-outline-secondary m-1" for="bedrooms-btncheck6">5</label>
+
+								<input type="checkbox" class="btn-check" id="bedrooms-btncheck7" autocomplete="off">
+								<label class="btn btn-outline-secondary m-1" for="bedrooms-btncheck7">6</label>
+
+								<input type="checkbox" class="btn-check" id="bedrooms-btncheck8" autocomplete="off">
+								<label class="btn btn-outline-secondary m-1" for="bedrooms-btncheck8">7</label>
+
+								<input type="checkbox" class="btn-check" id="bedrooms-btncheck9" autocomplete="off">
+								<label class="btn btn-outline-secondary m-1" for="bedrooms-btncheck9">7+</label>
+							</div>
+						</div>
+						<div class="d-flex flex-column col-12 col-lg-6">
+							<strong class="mt-3 ml-1">Bathrooms</strong>
+							<div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+								<input type="checkbox" class="btn-check" id="bathrooms-btncheck1" autocomplete="off">
+								<label class="btn btn-outline-secondary m-1" for="bathrooms-btncheck1">1</label>
+
+								<input type="checkbox" class="btn-check" id="bathrooms-btncheck2" autocomplete="off">
+								<label class="btn btn-outline-secondary m-1" for="bathrooms-btncheck2">2</label>
+
+								<input type="checkbox" class="btn-check" id="bathrooms-btncheck3" autocomplete="off">
+								<label class="btn btn-outline-secondary m-1" for="bathrooms-btncheck3">3</label>
+
+								<input type="checkbox" class="btn-check" id="bathrooms-btncheck4" autocomplete="off">
+								<label class="btn btn-outline-secondary m-1" for="bathrooms-btncheck4">4</label>
+
+								<input type="checkbox" class="btn-check" id="bathrooms-btncheck5" autocomplete="off">
+								<label class="btn btn-outline-secondary m-1" for="bathrooms-btncheck5">5</label>
+
+								<input type="checkbox" class="btn-check" id="bathrooms-btncheck6" autocomplete="off">
+								<label class="btn btn-outline-secondary m-1" for="bathrooms-btncheck6">6</label>
+
+								<input type="checkbox" class="btn-check" id="bathrooms-btncheck7" autocomplete="off">
+								<label class="btn btn-outline-secondary m-1" for="bathrooms-btncheck7">7</label>
+
+								<input type="checkbox" class="btn-check" id="bathrooms-btncheck8" autocomplete="off">
+								<label class="btn btn-outline-secondary m-1" for="bathrooms-btncheck8">7+</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="collapse" id="collapseprice">
+					<div class="card card-body bg-transparent border-0 m-0 pb-0">
+						<strong>Rental period</strong>
+						<div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+							<input type="checkbox" class="btn-check" id="price-btncheck1" autocomplete="off">
+							<label class="btn btn-outline-secondary m-1" for="price-btncheck1">Yearly</label>
+							<input type="checkbox" class="btn-check" id="price-btncheck2" autocomplete="off">
+							<label class="btn btn-outline-secondary m-1" for="price-btncheck2">Monthly</label>
+							<input type="checkbox" class="btn-check" id="price-btncheck3" autocomplete="off">
+							<label class="btn btn-outline-secondary m-1" for="price-btncheck3">Weekly</label>
+							<input type="checkbox" class="btn-check" id="price-btncheck4" autocomplete="off">
+							<label class="btn btn-outline-secondary m-1" for="price-btncheck4">Daily</label>
+						</div>
+					</div>
+				</div>
+	    	</form>
+	    </div>
+	    <div class="advantages brightness pt-5">
+	    	<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-6 col-lg-3 d-flex align-items-start">
+						<img  class="mx-2" src="img/advantagescheck.png" alt="">
+						<p>Lorem ipsum dolor</p>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-3 d-flex align-items-start">
+						<img  class="mx-2" src="img/advantagescheck.png" alt="">
+						<p>Lorem dolor</p>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-3 d-flex align-items-start">
+						<img  class="mx-2" src="img/advantagescheck.png" alt="">
+						<p>Dolor sit amet apsum lorem </p>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-3 d-flex align-items-start">
+						<img  class="mx-2" src="img/advantagescheck.png" alt="">
+						<p>Amet ipsum lorem</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="second" style="height: 100vh"></section>
+
+
+	<script src="js/bootstrap.js"></script>
+</body>
+</html>
